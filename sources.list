@@ -1,0 +1,63 @@
+# deb cdrom:[Ubuntu 12.10 _Quantal Quetzal_ - Release amd64 (20121017.5)]/ quantal main restricted
+
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+# newer versions of the distribution.
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy main restricted
+deb-src http://tw.archive.ubuntu.com/ubuntu/ saucy main restricted
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team. Also, please note that software in universe WILL NOT receive any
+## review or updates from the Ubuntu security team.
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy universe
+deb-src http://tw.archive.ubuntu.com/ubuntu/ saucy universe
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
+## team, and may not be under a free licence. Please satisfy yourself as to 
+## your rights to use the software. Also, please note that software in 
+## multiverse WILL NOT receive any review or updates from the Ubuntu
+## security team.
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ saucy multiverse
+
+## N.B. software from this repository may not have been tested as
+## extensively as that contained in the main release, although it includes
+## newer versions of some applications which may provide useful features.
+## Also, please note that software in backports WILL NOT receive any review
+## or updates from the Ubuntu security team.
+
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy-security main restricted
+deb-src http://tw.archive.ubuntu.com/ubuntu/ saucy-security main restricted
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy-security universe
+deb-src http://tw.archive.ubuntu.com/ubuntu/ saucy-security universe
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy-security multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ saucy-security multiverse
+
+## Uncomment the following two lines to add software from Canonical's
+## 'partner' repository.
+## This software is not part of Ubuntu, but is offered by Canonical and the
+## respective vendors as a service to Ubuntu users.
+deb http://archive.canonical.com/ubuntu quantal partner
+deb-src http://archive.canonical.com/ubuntu quantal partner
+
+## This software is not part of Ubuntu, but is offered by third-party
+## developers who want to ship their latest software.
+deb http://extras.ubuntu.com/ubuntu saucy main
+deb-src http://extras.ubuntu.com/ubuntu saucy main
+
+
+### JDK Font fix
+deb http://ppa.launchpad.net/no1wantdthisname/openjdk-fontfix/ubuntu saucy main # disabled on upgrade to saucy
+deb-src http://ppa.launchpad.net/no1wantdthisname/openjdk-fontfix/ubuntu raring main
+
+# deb http://repository.spotify.com stable non-free # disabled on upgrade to saucy
+
+deb http://packages.elasticsearch.org/elasticsearch/1.0/debian stable main # disabled on upgrade to saucy
+
+# deb http://ftp.yz.yamagata-u.ac.jp/pub/dbms/mariadb/repo/5.5/ubuntu saucy main # disabled on upgrade to saucy
+# deb-src http://ftp.yz.yamagata-u.ac.jp/pub/dbms/mariadb/repo/5.5/ubuntu saucy main # disabled on upgrade to saucy
+deb http://download.nus.edu.sg/mirror/mariadb/repo/10.0/ubuntu saucy main
+# deb-src http://download.nus.edu.sg/mirror/mariadb/repo/10.0/ubuntu saucy main
+deb http://tw.archive.ubuntu.com/ubuntu/ saucy-updates universe multiverse restricted main
